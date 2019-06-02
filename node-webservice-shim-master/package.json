@@ -1,0 +1,23 @@
+{
+  "name": "node-webservice-intermediary",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mariadb": "^2.0.5",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "description": ""
+}
