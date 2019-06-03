@@ -55,8 +55,8 @@ function YourChangeFun(ddl) {
 			dataJson.features[ddl.selectedIndex - 1].geometry.coordinates[0],
 			dataJson.features[ddl.selectedIndex - 1].geometry.coordinates[1]
 		],
-		zoom: 12,
-		speed: 1
+		zoom: 16,
+		speed: 1.3
 	});
 }
 document.addEventListener("DOMContentLoaded", async () => {
@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 	map = new mapboxgl.Map({
 		container: "map",
 		style: "mapbox://styles/apple1099/cjwce6mgp0d1m1cms43yex1do",
-		center: [-75.69273468814251, 45.42168954429647],
-		zoom: 19
+		center: [-75.69573468814251, 45.25168954429647],
+		zoom: 10
 	});
 
 	locInfo = await centerOnUser();
